@@ -1,0 +1,57 @@
+div.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 85%;
+    margin: 0 auto;
+
+    > * {
+        border: 10px solid red;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: sans-serif;
+        font-size: 18px;
+
+        nav {
+            display: flex;
+            gap: 1rem;
+            font-family: sans-serif;
+
+            a {
+                border: 1px solid red;
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+
+    article.homepage {
+        height: 70vh;
+        display: flex;
+        gap: 1rem;
+
+        div {
+            background-color: cyan;
+            height: 100%;
+            flex-basis: 25%;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+            img {
+                min-height: 30px;
+                width: 100%;
+            }
+        }
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        font-family: sans-serif;
+    }
+}
