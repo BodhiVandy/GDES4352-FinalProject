@@ -14,8 +14,23 @@ a {
 #about {
     display: flex;
     gap: 2rem;
-    flex-direction: column;
+    /*flex-direction: column;*/
+    margin-top: 2rem;
 
+    aside.left {
+        p {
+            margin-bottom: 1rem;
+            margin-left: 5rem;
+        }
+    }
+
+    aside.headshot {
+        img {
+            width: 80%;
+            margin-left: 5rem;
+            margin-top: 1rem;
+        }
+    }
 }
 
 header {
@@ -53,22 +68,21 @@ nav {
         color: black;
         text-decoration: none;
 
-        &:hover {
+        &:hover { /* Pseudo-class */
             transform: scale(1.1);
             transition: transform 0.2s ease-in-out;
-            color: #89CFF0;
+            color: #0072bb;
+        }
 
-            &:active {
-                font-weight: bold;
-            }
-
-
+        &.active {
+            font-weight: bold;
+            color: #0072bb
         }
     }
 }
 
 article.homepage {
-    height: 75vh;
+    height: 70vh;
     display: flex;
     gap: 1rem;
 

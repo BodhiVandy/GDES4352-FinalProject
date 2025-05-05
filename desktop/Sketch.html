@@ -5,12 +5,16 @@
     <title>BJV Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="../Styles.css">
+    <link rel="stylesheet" href="../styles/desktop-stylesheet.css">
+    <link rel="stylesheet" href="../styles/lightbox.css">
+
+    <script src="../scripts/lightbox-plus-jquery.min.js"></script>
 </head>
 <body>
 
@@ -18,13 +22,15 @@
 
     <header>
         <aside>
-            <h1>Bodhi VanDeWalker</h1>
+            <a href="Projects.html">
+                <h1>Bodhi VanDeWalker</h1>
+            </a>
             <p> Graphic Design & Illustration</p>
         </aside>
 
         <nav>
             <a href="Projects.html">PROJECTS</a>
-            <a href="Sketch.html">SKETCH</a>
+            <a href="Sketch.html" class="active">SKETCH</a>
             <a href="About.html">ABOUT</a>
             <a href="Contact.html">CONTACT</a>
         </nav>
@@ -34,33 +40,73 @@
 
     <article class="homepage">
         <div>
-            <img src="../Sketch/Batman.png" alt="Batman"/>
-            <img src="../Sketch/Bane.png" alt="Bane"/>
-            <img src="../Sketch/Wolverine.png" alt="Wolverine"/>
+            <a href="../Sketch/Batman.png" data-lightbox="image-1" data-title="Batman">
+                <img src="../Sketch/Batman.png" alt="Batman"/>
+            </a>
+
+            <a href="../Sketch/Bane.png" data-lightbox="image-1" data-title="Bane">
+                <img src="../Sketch/Bane.png" alt="Bane"/>
+            </a>
+
+            <a href="../Sketch/Wolverine.png" data-lightbox="image-1" data-title="Wolverine">
+                <img src="../Sketch/Wolverine.png" alt="Wolverine"/>
+            </a>
         </div>
 
         <div>
-            <img src="../Sketch/Woman.png" alt="Woman"/>
-            <img src="../Sketch/Feet.png" alt="Feet"/>
-            <img src="../Sketch/Super.png" alt="Superman"/>
+            <a href="../Sketch/Woman.png" data-lightbox="image-1" data-title="Woman">
+                <img src="../Sketch/Woman.png" alt="Woman"/>
+            </a>
+
+            <a href="../Sketch/Feet.png" data-lightbox="image-1" data-title="Feet">
+                <img src="../Sketch/Feet.png" alt="Feet"/>
+            </a>
+
+            <a href="../Sketch/Super.png" data-lightbox="image-1" data-title="Super">
+                <img src="../Sketch/Super.png" alt="Superman"/>
+            </a>
         </div>
 
         <div>
-            <img src="../Sketch/Spidey.png" alt="Spiderman"/>
-            <img src="../Sketch/Power.png" alt="Power"/>
-            <img src="../Sketch/Hand.png" alt="Hand"/>
+            <a href="../Sketch/Spidey.png" data-lightbox="image-1" data-title="Spidey">
+                <img src="../Sketch/Spidey.png" alt="Spiderman"/>
+            </a>
+
+            <a href="../Sketch/Power.png" data-lightbox="image-1" data-title="Power">
+                <img src="../Sketch/Power.png" alt="Power"/>
+            </a>
+
+            <a href="../Sketch/Hand.png" data-lightbox="image-1" data-title="Hand">
+                <img src="../Sketch/Hand.png" alt="Hand"/>
+            </a>
         </div>
 
         <div>
-            <img src="../Sketch/Jump.png" alt="jump"/>
-            <img src="../Sketch/Woe.png" alt="Woe"/>
-            <img src="../Sketch/Squat.png" alt="Squat"/>
+            <a href="../Sketch/Jump.png" data-lightbox="image-1" data-title="Jump">
+                <img src="../Sketch/Jump.png" alt="jump"/>
+            </a>
+
+            <a href="../Sketch/Woe.png" data-lightbox="image-1" data-title="Woe">
+                <img src="../Sketch/Woe.png" alt="Woe"/>
+            </a>
+
+            <a href="../Sketch/Squat.png" data-lightbox="image-1" data-title="Squat">
+                <img src="../Sketch/Squat.png" alt="Squat"/>
+            </a>
         </div>
 
         <div>
-            <img src="../Sketch/Walk.png" alt="Walk"/>
-            <img src="../Sketch/Damian.png" alt="Damian"/>
-            <img src="../Sketch/Man.png" alt="Man"/>
+            <a href="../Sketch/Walk.png" data-lightbox="image-1" data-title="Walk">
+                <img src="../Sketch/Walk.png" alt="Walk"/>
+            </a>
+
+            <a href="../Sketch/Damian.png" data-lightbox="image-1" data-title="Damian">
+                <img src="../Sketch/Damian.png" alt="Damian"/>
+            </a>
+
+            <a href="../Sketch/Man.png" data-lightbox="image-1" data-title="Man">
+                <img src="../Sketch/Man.png" alt="Man"/>
+            </a>
         </div>
 
 
